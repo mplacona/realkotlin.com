@@ -1,0 +1,12 @@
+# main links links
+main:
+  - title: "Start Here"
+    url:  /
+  - title: "Tutorials"
+    url:  /tutorials/
+  - title: "About"
+    url: /about/
+  - title: "Contributing"
+    url: https://github.com/mplacona/androidthings.rocks#contributing
+  - title: "Source"
+    url: https://github.com/mplacona/androidthings.rocks

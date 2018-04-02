@@ -1,0 +1,167 @@
+# Site settings
+locale:                     "en-UK"
+title:                      Real Kotlin
+minimal_mistakes_skin:      'default'
+tagline:                    'Learn the Real Kotlin online'
+title_separator:            '|'
+description:                'Learn the Real Kotlin online'
+url:                        https://realkotlin.com
+baseurl:                    ""
+twitter_username:           marcos_placona
+github_username:            mplacona
+future:                     true
+port:                       4003
+words_per_minute:           130
+
+# Search
+search:                     false 
+search_full_content:        false
+
+# Social Sharing
+twitter:
+  username               : "marcos_placona"
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Analytics
+analytics:
+  provider               : "google" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : "UA-89710423-1"
+
+# Site Author
+author:
+  name             : "Marcos Placona"
+  avatar           : "/images/marcos_bw_200_optim.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Developer evangelist at <a href='http://www.twilio.com'>Twilio</a>, GDE and in ❤️ with Open Source"
+  location         : 
+  email            : 
+  uri              : "https://www.placona.co.uk"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "mplacona"
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         : 
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : "279395/marcos-placona"
+  steam            :
+  tumblr           :
+  twitter          : "marcos_placona"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+
+# Outputting
+permalink: /:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
+# Collections
+collections:
+  tutorials:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true   
+  # _tutorials
+  - scope:
+      path: ""
+      type: tutorials
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: false
+      paginate: false
+
+# Conversion
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: kotlin
+    css_class: 'highlight'
+    span:
+      line_numbers: true
+    block:
+      line_numbers: true
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
