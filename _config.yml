@@ -143,15 +143,6 @@ defaults:
 
 # Conversion
 markdown: kramdown
-kramdown:
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    default_lang: kotlin
-    css_class: 'highlight'
-    span:
-      line_numbers: true
-    block:
-      line_numbers: true
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
