@@ -11,3 +11,4 @@ val map = mapOf(
 )
 ```
 
+From time to time, there is a need to define a hardcoded `Map`. There are several ways to do them in Java, but nothing gets closer to the beauty of Kotlin.
