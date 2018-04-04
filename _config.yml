@@ -143,6 +143,13 @@ defaults:
 
 # Conversion
 markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false

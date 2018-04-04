@@ -1,0 +1,36 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+
+/* solarized light syntax highlighting (base16) */
+$base00: #fafafa !important;
+$base01: #073642 !important;
+$base02: #586e75 !important;
+$base03: #657b83 !important;
+$base04: #839496 !important;
+$base05: #586e75 !important;
+$base06: #eee8d5 !important;
+$base07: #fdf6e3 !important;
+$base08: #dc322f !important;
+$base09: #cb4b16 !important;
+$base0a: #b58900 !important;
+$base0b: #859900 !important;
+$base0c: #2aa198 !important;
+$base0d: #268bd2 !important;
+$base0e: #6c71c4 !important;
+$base0f: #d33682 !important;
+
+@import "minimal-mistakes"; // main partials
+
+// Make the whole thing a bit bigger
+.page__inner-wrap{
+    width: initial !important
+}
+
+.rouge-table {
+    font-size: 0.8em !important;
+}
