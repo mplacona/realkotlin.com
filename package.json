@@ -1,0 +1,29 @@
+{
+  "name": "realkotlin.com",
+  "version": "1.0.0",
+  "description": "This is the repository for [RealKotlin.com](https://www.realkotlin.com)",
+  "main": "index.js",
+  "scripts": {
+    "uncss": "jekyll build && gulp minify-css && jekyll build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mplacona/realkotlin.com.git"
+  },
+  "author": "Marcos Placona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mplacona/realkotlin.com/issues"
+  },
+  "homepage": "https://github.com/mplacona/realkotlin.com#readme",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "uncss": "^0.16.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-postcss": "^7.0.1",
+    "postcss-uncss": "^0.16.1"
+  }
+}

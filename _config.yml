@@ -58,6 +58,8 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - node_modules
+  
 keep_files:
   - .git
 encoding: "utf-8"
