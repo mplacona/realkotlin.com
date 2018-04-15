@@ -14,6 +14,7 @@ fun removeArrayDuplicates(duplicates: Array<String>): Array<String> {
 fun main(args: Array<String>) {
     val duplicates = arrayOf("a", "b", "c", "a", "c")
     println(Arrays.toString(removeArrayDuplicates(duplicates)))
+    // [a, b, c]
 }
 ```
 

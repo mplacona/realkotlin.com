@@ -15,6 +15,7 @@ fun createImplicitMap(): Map<String, String>{
 
 fun main(args: Array<String>) {
     println(createImplicitMap())
+    // {keyA=valueA, keyB=valueB, keyC=valueC}
 }
 ```
 
