@@ -1,6 +1,7 @@
 ---
 title: "Defining a map in Kotlin"
 excerpt: "No need for explicitly defining generic types and no repetitive `put` or assignment to define maps."
+date: "2018-04-14"
 author: Marcos Placona
 ---
 

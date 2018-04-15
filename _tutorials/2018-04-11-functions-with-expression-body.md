@@ -1,6 +1,7 @@
 ---
 title: "Functions With Expression Body"
 excerpt: "When a function returns a single expression, the curly braces can be omitted and the body is specified after a = symbol"
+date: "2018-04-11"
 author: Marcos Placona
 ---
 

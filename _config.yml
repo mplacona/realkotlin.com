@@ -12,6 +12,7 @@ github_username:            mplacona
 future:                     true
 port:                       4003
 words_per_minute:           130
+future:                     false
 
 # Search
 search:                     false 

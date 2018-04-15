@@ -1,12 +1,11 @@
 ---
 title: "Remove array duplicates in Kotlin"
-excerpt: "Removing duplicates from arrays usually involves looping through an entire array and creating a new array without duplicates"
+excerpt: "Removing duplicates from arrays usually involves looping through an entire array and creating a new array without duplicates."
+date: "2018-04-14"
 author: Marcos Placona
 ---
 
 ```kotlin
-import java.util.*
-
 fun removeArrayDuplicates(duplicates: Array<String>): Array<String> {
     return Arrays.asList(*duplicates).toSet().toTypedArray()
 }
