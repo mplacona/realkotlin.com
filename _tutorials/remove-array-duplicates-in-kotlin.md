@@ -1,5 +1,5 @@
 ---
-title: "Remove array duplicates in Kotlin."
+title: "Remove array duplicates in Kotlin"
 excerpt: "Removing duplicates from arrays usually involves looping through an entire array and creating a new array without duplicates"
 author: Marcos Placona
 ---
