@@ -1,6 +1,6 @@
 ---
 title: "Extension functions in Kotlin"
-excerpt: "In most programming languages you have to derive a new class. In Kotlin  you can extend a class with new functionality"
+excerpt: "In most programming languages you have to derive a new class. In Kotlin you can extend a class with new functionality"
 author: Marcos Placona
 ---
 

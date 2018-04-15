@@ -7,10 +7,13 @@ author: Marcos Placona
 ```kotlin
 import java.util.*
 
+fun removeArrayDuplicates(duplicates: Array<String>): Array<String> {
+    return Arrays.asList(*duplicates).toSet().toTypedArray()
+}
+
 fun main(args: Array<String>) {
     val duplicates = arrayOf("a", "b", "c", "a", "c")
-    val uniques = Arrays.asList(*duplicates).toSet()
-    print(uniques)
+    println(Arrays.toString(removeArrayDuplicates(duplicates)))
 }
 ```
 
