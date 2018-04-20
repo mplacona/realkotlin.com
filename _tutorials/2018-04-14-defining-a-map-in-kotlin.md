@@ -10,7 +10,7 @@ fun createImplicitMap(): Map<String, String>{
     return mapOf(
             "keyA" to "valueA",
             "keyB" to "valueB",
-            "keyC" to "valueC"
+            "keyC" to "value"
     )
 }
 

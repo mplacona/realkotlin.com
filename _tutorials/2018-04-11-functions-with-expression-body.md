@@ -1,6 +1,6 @@
 ---
 title: "Functions With Expression Body"
-excerpt: "When a function returns a single expression, the curly braces can be omitted and the body is specified after a = symbol"
+excerpt: "When a function returns a single expression, the curly braces can be omitted and the body is specified after a = symbol."
 date: "2018-04-11"
 author: Marcos Placona
 ---
@@ -18,4 +18,4 @@ fun main(args: Array<String>) {
 }
 ```
 
-Explicitly declaring the return type is optional when this can be inferred by the compiler
+Explicitly declaring the return type is optional when this can be inferred by the compiler.
