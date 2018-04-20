@@ -12,7 +12,7 @@ regenerate: true
   {% unless collection.output == false or collection.label == "posts" %}
     {% capture label %}{{ collection.label }}{% endcapture %}
   {% endunless %}
-  {% for post in collection.docs %}
+  {% for post in collection.docs reversed %}
     {% unless collection.output == false or collection.label == "posts" %}
       {% include archive-single.html %}
     {% endunless %}
