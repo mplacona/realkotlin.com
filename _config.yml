@@ -7,7 +7,7 @@ title_separator:            '|'
 description:                'Learn the Real Kotlin online'
 url:                        https://realkotlin.com
 baseurl:                    ""
-twitter_username:           marcos_placona
+twitter_username:           RealKotlin
 github_username:            mplacona
 future:                     true
 port:                       4003
@@ -20,7 +20,7 @@ search_full_content:        false
 
 # Social Sharing
 twitter:
-  username               : "marcos_placona"
+  username               : "RealKotlin"
 
 # Build settings
 markdown: kramdown
