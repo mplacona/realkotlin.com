@@ -6,11 +6,15 @@ This is the repository for [RealKotlin.com](https://www.realkotlin.com)
 - [Github](https://github.com/mplacona)
 - [Blog](https://www.placona.co.uk)
 
+## Running
+1. Clone this repository.
+2. [Install Jekyll](https://jekyllrb.com/docs/installation/) if you don;t already have it.
+3. Run the project from your terminal by issuing `jekyll serve --watch --incremental --verbose --trace`
+4. Head to [http://localhost:4003](http://localhost:4003)
+
 ## Contributing
 I would ❤️  some contributions from other authors here. Just follow these steps
 
- - Fork this repository
- - Add yourself as an author in `_data/authors.yml`
- - Create a new entry in `_tutorials` (it's easier to copy an existing one and make your changes. Don't forget to change the author name to be you)
- - Send me a pull request with everything
- - 🤗  wait for my virtual hug
+Posts are automatically generated after each example in [RealKotlinTips](https://github.com/mplacona/RealKotlinTips), which then gets converted into markdown using the metadata added in JavaDocs style at the top of each file.
+
+Check out the [contribution section](https://github.com/mplacona/RealKotlinTips#contributing) in that project to learn more.
