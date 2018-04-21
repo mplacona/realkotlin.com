@@ -70,7 +70,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-89710423-1"
+    tracking_id          : "UA-117915590-1"
 
 # Site Author
 author:
