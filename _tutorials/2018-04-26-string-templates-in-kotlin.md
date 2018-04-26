@@ -1,7 +1,7 @@
 ---
 title: "String Templates in Kotlin"
-excerpt: "Concatenating string with a + is a waste of time when you can use string templates."
-date: "2018-05-01"
+excerpt: "Concatenating strings with a + is a waste of time when you can use string templates."
+date: "2018-04-26"
 author: Marcos Placona
 header:
     og_image: assets/images/screenshots/string-templates-in-kotlin.png
