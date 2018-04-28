@@ -1,6 +1,6 @@
 ---
 title: "Functions are first-class citizens in Kotlin"
-excerpt: "Kotlin functions are first-class, which means they can be stored in variables and data structures, passed as arguments to and returned from other functions"
+excerpt: "Kotlin functions are first-class citizens, which means they can be stored in variables and data structures, passed as arguments to and returned from other functions"
 date: "2018-05-10"
 author: Marcos Placona
 header:
