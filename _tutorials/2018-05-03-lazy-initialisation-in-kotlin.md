@@ -43,4 +43,4 @@ fun main(args: Array<String>) {
 }
 ```
 
-`lazy` properties are also thread safe as they run in `synchronized` mode. If using `lazy` on the main thread and nowhere else, you may avoid the `synchronized` overhead by removing its thread safety. This mode should be used only when high performance is crucial and the Lazy instance is guaranteed never to be initialized from more than one thread.
+`lazy` properties are also thread safe as they run in `synchronized` mode. If using `lazy` on the main thread and nowhere else, you may avoid the `synchronized` overhead by removing its thread safety. This mode should be used only when high performance is crucial and the `lazy` instance is guaranteed never to be initialised from more than one thread.

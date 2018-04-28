@@ -41,4 +41,4 @@ fun main(args: Array<String>) {
 }
 ```
 
-An extension function is a member function of a class that is defined outside the class and valiud throughout your project.
+An extension function is a member function of a class that is defined outside the class and valid throughout your project.
