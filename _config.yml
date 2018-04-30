@@ -26,7 +26,6 @@ twitter:
 markdown: kramdown
 theme: minimal-mistakes-jekyll
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
