@@ -15,7 +15,7 @@ export JEKYLL_VERSION=3.7.3 \
   --volume="$PWD:/srv/jekyll" \
   -p 4003:4003 \
   -it jekyll/jekyll:$JEKYLL_VERSION \
-  jekyll serve --watch --incremental --verbose --trace
+  jekyll serve --watch --incremental --verbose --trace --future
 ```
  
 Now just go to [http://127.0.0.1:4003](http://127.0.0.1:4003).
