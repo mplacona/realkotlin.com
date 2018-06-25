@@ -8,21 +8,21 @@ header:
 ---
 
 ```kotlin
-data class User(val name: String, var age: Int = 0, var website: String = "")
+data class User(val name: String, var age: Int = 0, var website: String = "", val active: Boolean = true)
 
 fun main(args: Array<String>) {
     val user1 = User("Marcos Placona")
     user1.age = 34
     user1.website = "https://www.placona.co.uk"
     println(user1)
-    // User(name=Marcos Placona, age=34, website=https://www.placona.co.uk)
+    //User(name=Marcos Placona, age=34, website=https://www.placona.co.uk, active=true)
 
 
     println(User("RealKotlin").apply {
         age = 1
         website = "https://www.realkotlin.com"
     })
-    //User(name=RealKotlin, age=1, website=https://www.realkotlin.com)
+    //User(name=RealKotlin, age=1, website=https://www.realkotlin.com, active=true)
 }
 ```
 
