@@ -1,6 +1,6 @@
 ---
 title: "Lazy initialisation in Kotlin"
-excerpt: "Just like [Late Initialisation]({% post_url 2018-05-01-late-initialisation-in-kotlin %}) `lazy` lets you initialise a property only when you need it, but it also remembers its value for future calls."
+excerpt: "Just like [Late Initialisation](/tutorials/2018-05-01-late-initialisation-in-kotlin) `lazy` lets you initialise a property only when you need it, but it also remembers its value for future calls."
 date: "2018-05-03"
 author: Marcos Placona
 header:
