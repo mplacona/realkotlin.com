@@ -21,7 +21,7 @@
     "uncss": "^0.16.2"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^5.0.0",
     "gulp-clean-css": "^3.9.3",
     "gulp-postcss": "^7.0.1",
     "postcss-uncss": "^0.16.1"
