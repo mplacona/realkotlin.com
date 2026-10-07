@@ -21,8 +21,7 @@ Marcos an experienced Developer Relations leader turned solopreneur. With a pass
 
 - Founder of [DevRel Bridge](https://devrelbridge.com) - Developer-First DevRel Strategy
 for Market Leaders.
-- Founder of [JustDeploy](https://justdeploy.tech) - Revolutionizing deployment with our 'deploy to your server in minutes' solution.
-- Founder of [MicroWidgets](https://MicroWidgets.dev) - Website Widgets that convert for developers who'd rather code.
+- Founder of [LinkIntel](https://www.getlinkintel.com) - Analytics and insight on your LinkedIn and X posts, right inside your AI assistant.
 - Advisor at KrunchData - Guiding the next generation of data analytics tools.
 
 My mission is to empower developers and startups to ship faster, scale effortlessly, and focus on what truly matters - building great products.
